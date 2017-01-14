@@ -13,7 +13,7 @@
       </div>
       <section class="grid_3">
         <h1 id="header_delicious" style="margin-bottom: 10px; margin-top: 10px">Delicious</h3>
-        <p class="to_upper_case" style="margin-top: 10px">The best food blog on the web.</p>
+        <p class="to_upper_case" style="margin-top: 10px; text-transform:uppercase">The best food blog on the web.</p>
       </section>
       <section id="header_logos" class="grid_3 prefix_4" style="height: 82px">
         <img src="img/fb-icon.png" alt="Facebook icon" style="margin-top: 29px">
@@ -28,35 +28,43 @@
         <img src="img/mail-icon.png" alt="Mail icon">
       </section>
     </header>
-    <div class="divider" style="display: block">
-      Divider image goes here.
-    </div>
+    <div style="width: 960px; height: 18px; border: 1px solid black; background-color: grey; margin-left: auto; margin-right: auto"></div>
     <article class="recipe">
-      <header>
+      <header class="container_12">
+        <div class="grid_4 suffix_5">
         <h1 id="recipe_name">Chocolate Pizza</h1>
-        <p class="to_upper_case">Posted on 15 Dec 2013 / Desserts</p>
-        <img src="img/print-icon.png" alt="print icon"><p class="to_upper_case">Print</p>
+        <p class="to_upper_case"><span class="to_upper_case" style="text-transform: uppercase">Posted on 15 Dec 2013 / Desserts</span></p>
+      </div>
+      <div class="grid_3" style="height: 102.05px">
+        <p class="to_upper_case" style="float: right; clear: right; margin: 70.25px auto 16px auto; text-transform: uppercase"><img src="img/print-icon.png" alt="print icon">
+        Print</p>
+      </div>
       </header>
-      <img id="recipe_photo" src="img/choco-pizza.png" alt="Chocolate Pizza photo">
-      <section id="recipe_directions">
+      <img id="recipe_photo" src="img/choco-pizza.png" alt="Chocolate Pizza photo" style="display: block; width: 960px; height: auto; margin: 10px auto">
+      <section id="recipe_directions" class="container_12">
         <p>Do elit irure proident labore nulla qui enim irure pariatur. Esse deserunt proident anim et aute ad est exercitation est qui reprehenderit. Proident velit in ut esse cupidatat fugiat eu aliqua non velit veniam dolore incididunt id cillum. Ex Lorem magna aliqua occaecat ipsum sunt ullamco exercitation voluptate tempor sunt id. Dolore aute fugiat consequat nulla aliquip nulla Lorem consequat veniam ipsum occaecat ad fugiat.</p>
         <p>Sunt elit eu consequat occaecat magna veniam magna enim ad. Aliquip proident qui ex mollit enim id ullamco enim enim aute velit aliquip fugiat incididunt do ipsum. Ut in pariatur consequat adipisicing cillum reprehenderit duis quis minim officia occaecat laboris. Qui ex deserunt deserunt irure nisi excepteur sunt irure et fugiat enim nulla id qui consequat ipsum nisi. Consectetur dolor est ex culpa ut id magna sit in ea minim laboris exercitation ex laboris nostrud dolore.</p>
         <p>Velit do ut ea sit irure elit culpa qui. Nisi irure ullamco culpa incididunt occaecat anim excepteur voluptate ullamco ex deserunt voluptate nulla sit ea elit amet. Aute mollit esse in non dolor magna qui consectetur minim. Qui anim aliqua elit dolore laboris anim nisi anim aliquip minim elit nulla nisi fugiat incididunt. Incididunt aliquip ad sint ullamco exercitation anim eiusmod. Occaecat consequat cupidatat dolor reprehenderit reprehenderit qui minim esse qui magna culpa ullamco cillum. Magna dolor et non sint mollit voluptate ut amet exercitation fugiat magna occaecat.</p>
       </section>
       <section class="ingredients">
       </section>
-      <div class="divider">
-      </div>
-      <footer id="recipe_footer">
-        <img src="img/van-pic.png" alt="Photo of author" id="author_photo">
+      <div style="width: 960px; height: 18px; border: 1px solid black; background-color: grey; margin-left: auto; margin-right: auto"></div>
+      <footer id="recipe_footer" class="container_12" style="margin-top: 20px">
+        <img src="img/van-pic.png" alt="Photo of author" id="author_photo" style="display: block; width: 70px; height: auto; margin: 10px 10px auto 20px" class= "grid_2">
+        <div class="grid_7">
         <p>Vanessa Stevenson</p>
         <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-        <button type="button" name="share_recipe"></button>
+      </div>
+        <button type="button" name="share_recipe" style="width: 180px; height: 100px; float: right">SHARE RECIPE</button>
       </footer>
     </article>
     <footer class="site_footer">
-      <img src="img/small-logo.png" alt="Small Delicious logo">
-      <p>Delicious &cp; 2013 - All Rights Reserved.</p>
+      <div class="container_12" style="height: 60px">
+      <span class="grid_5" style="height: 0px; border: 1px lightgrey solid; margin-top: 25px"></span>
+      <div class="grid_2"><img src="img/small-logo.png" alt="Small Delicious logo" style="margin: 10px; width: 30px; height: auto; display: block"></div><span class="grid_5" style="height: 0px; border: 1px lightgrey solid; margin-top: 25px"></span>
+    </div>
+
+      <p>Delicious &copy; 2013 - All Rights Reserved.</p>
       <p>Proudly published with Ghost.</p>
     </footer>
   </body>
